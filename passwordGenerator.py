@@ -18,7 +18,7 @@ upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowerCase = "abcdefghijklmnopqrstuvwxyz"
 myPassword = []
 
-#test
+#determines what type of character to randomly generate
 for x in numberArray:
     if x in range(1,2):
         myPassword.append(random.choice(specialChar))
@@ -35,5 +35,5 @@ for x in numberArray:
 #convert list into string by joining all the elements of the string together
 finalPassword = ''.join(myPassword)
 
-#then print out myPassword
+#then print out the password
 print(finalPassword)
